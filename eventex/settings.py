@@ -64,7 +64,6 @@ DATABASES = {
     'default': dj_database_url.config(
         default='sqlite:///' + BASE_DIR.child('db.sqlite3'))
     }
-}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
