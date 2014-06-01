@@ -48,6 +48,7 @@ jQuery(document).ready(function() {
     $('.success-message').hide();
     $('.error-message').hide();
 
+    /*
     $('.subscribe form').submit(function() {
         var postdata = $('.subscribe form').serialize();
         $.ajax({
@@ -73,6 +74,7 @@ jQuery(document).ready(function() {
         });
         return false;
     });
+    */
 
 });
 

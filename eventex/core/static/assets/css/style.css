@@ -24,9 +24,11 @@ a:hover { text-decoration: none; }
 ::-moz-selection { background: #e75967; color: #fff; text-shadow: none; }
 ::selection { background: #e75967; color: #fff; text-shadow: none; }
 
+.logo { padding: 10px 0; }
+
 .logo h1 {
-    margin-top: 7px;
-    padding-left: 50px;
+    /*margin: 7px;*/
+    /*padding-left: 50px;*/
     font-family: 'Lobster', cursive;
     font-size: 58px;
     font-weight: 400;
@@ -183,11 +185,13 @@ a:hover { text-decoration: none; }
 .subscribe form input:-ms-input-placeholder { color: #888; }
 .subscribe form input::-webkit-input-placeholder { color: #888; }
 
-.subscribe form button {
-    width: 130px;
-    height: 46px;
+.subscribe form button,
+.subscribe form input[type='submit'],
+.coming-soon a {
+    /*min-width: 130px;
+    min-height: 46px;*/
     margin: 0;
-    padding: 0;
+    padding: 5px 15px;
     background: #e75967;
     border: 0;
     font-family: 'Lato', Arial, sans-serif;
@@ -208,12 +212,14 @@ a:hover { text-decoration: none; }
     -ms-transition: all .3s;
 }
 
-.subscribe form button:hover {
+.subscribe form button:hover,
+.subscribe form input[type='submit']:hover {
     background: #e75967;
     color: #fff;
 }
 
-.subscribe form button:active {
+.subscribe form button:active,
+.subscribe form input[type='submit']:active {
     background: #e75967;
     color: #fff;
 }
